@@ -3,8 +3,8 @@ defmodule Database.Application do
   # for more information on OTP Applications
   @moduledoc false
 
-  @node_cache_list [ :a@Tan, :b@Tan, :c@Tan ]
-
+  #@node_cache_list [ :a@Tan, :b@Tan, :c@Tan ]
+  @node_cache_list [ :"tan1@192.168.1.60", :"anhtam@192.168.1.213", :"tan2@192.168.1.60" ]
   use Application
   require Logger
 
